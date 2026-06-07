@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MediaFlow
+log/
+outputs/
+checkpoints/*/model.safetensors
+checkpoints/*/pytorch_model.bin
+checkpoints/*/consolidated.safetensors
+prompts/*.wav
+prompts/*.mp3
+prompts/*.mp4
+prompts/*.png
+prompts/*.jpg
+
+# Modelscope / HuggingFace caches
+.cache/
+modelscope_cache/
+huggingface/
+.tmp/
+
+# Test artefacts
+.coverage
+htmlcov/
+.tox/
+
+# Notebooks
+*.ipynb_checkpoints/
+
+# Logs
+*.log
